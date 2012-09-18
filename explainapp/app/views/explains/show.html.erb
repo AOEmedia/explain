@@ -15,7 +15,7 @@
 #   limitations under the License.
 #
 %>
-<section>
+<div class="section">
     <h1><%=t 'explain.show.header' %> <%= @explain.code %></h1>
     <div class="messages">
     <% @explain.info( :error ).each do |i| %>
@@ -62,4 +62,4 @@
             <%#= render_explain_description( @explain, :unassigned ) %>
         </div>
     </div>
-</section>
+</div>
